@@ -112,7 +112,7 @@ function App() {
                   <img src="./HeartBPM.svg" alt="heartbeat" className='h-30 w-30 m-4'/>
                   <p className='mx-5'>Heart Rate</p>
                   <p className='font-extrabold text-2xl mx-5'>{data && data[0].diagnosis_history[0].heart_rate.value} bpm</p>
-                  <p className='my-4 mx-5'>Lower than average</p>
+                  <p className='flex flex-row items-center my-4 mx-5'><img src="./ArrowDown.svg" alt="arrow-down" className='mr-1'></img>Lower than average</p>
                 </div>
               </div>
             </div>
